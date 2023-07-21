@@ -62,7 +62,7 @@ public:
       int node = q.front();
       q.pop();
 
-      topoSize++; // push into vector if storing topo sort
+      topoSize++; // push into vector(LIFO) if storing topo sort
 
       for (int child : adj[node]) {
         indegree[child]--;
