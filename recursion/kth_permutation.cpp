@@ -22,4 +22,4 @@ string kthPermutation(int n, int k) {
   return ans;
 }
 
-int main() { return 0 }
+int main() { return 0; }
